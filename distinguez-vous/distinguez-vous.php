@@ -112,6 +112,12 @@ wp-core-ui .button.button-primary.button-hero {box-shadow: 0 2px 0 #7dba75;}
     max-width: 100%;
     margin-right: 13px;
 }
+
+.welcome-panell-content { padding: 20px; border: 1px solid #d6e2ed;}
+.welcome-panel h2 { color: #261f33; font-size: 22px;}
+.welcome-panel::before{display:none}
+.welcome-panel{background:#fff;}
+
 </style>';
 }
 
@@ -167,7 +173,7 @@ remove_action('welcome_panel', 'wp_welcome_panel');
 
 add_action('welcome_panel', 'kodex_welcome_panel');
 function kodex_welcome_panel(){
-	?><div class="welcome-panel-content">
+	?><div class="welcome-panell-content">
     <?php
     echo '<img style="float:right" src="' . plugins_url( 'images/logood.png', __FILE__ ) . '" /> ';
     ?>
