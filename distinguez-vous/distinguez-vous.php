@@ -206,14 +206,17 @@ function distinguezvouscom_register_required_plugins() {
 	 */
 	$plugins = array(
 
-
-		// This is an example of how to include a plugin from the WordPress Plugin Repository.
 		array(
 			'name'      => 'Admin Menu Editor',
 			'slug'      => 'admin-menu-editor',
 			'required'  => false,
 		),
 
+		array(
+			'name'        => 'Yoast SEO',
+			'slug'        => 'wordpress-seo',
+			'is_callable' => 'wpseo_init',
+		),
 
 
 	);
