@@ -46,7 +46,7 @@ msgstr "Il y a eu un problème avec l’API de l’extension."
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Ce module nécessite l’extension suivante : %1$s."
-msgstr[1] "Ce thème nécessite les extensions suivante : %1$s."
+msgstr[1] "Ce module nécessite les extensions suivante : %1$s."
 
 #. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:349
@@ -54,7 +54,7 @@ msgstr[1] "Ce thème nécessite les extensions suivante : %1$s."
 msgid "This theme recommends the following plugin: %1$s."
 msgid_plural "This theme recommends the following plugins: %1$s."
 msgstr[0] "Ce module recommande l’extension suivante : %1$s."
-msgstr[1] "Ce thème recommande les extensions suivantes : %1$s."
+msgstr[1] "Ce module recommande les extensions suivantes : %1$s."
 
 #. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:355
