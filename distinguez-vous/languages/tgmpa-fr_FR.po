@@ -3,18 +3,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TGM Plugin Activation v2.6.1\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-05-19 03:01+0200\n"
-"PO-Revision-Date: 2022-02-08 22:49+0000\n"
+"PO-Revision-Date: 2022-02-09 00:04+0100\n"
 "Last-Translator: \n"
 "Language-Team: Français\n"
-"Language: fr-FR\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Report-Msgid-Bugs-To: \n"
-"X-Loco-Version: 2.5.8; wp-5.9"
+"X-Generator: Poedit 3.0.1\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
 
 #: class-tgm-plugin-activation.php:334
 msgid "Install Required Plugins"
@@ -46,7 +46,7 @@ msgstr "Il y a eu un problème avec l’API de l’extension."
 msgid "This theme requires the following plugin: %1$s."
 msgid_plural "This theme requires the following plugins: %1$s."
 msgstr[0] "Ce module nécessite l’extension suivante : %1$s."
-msgstr[1] "Ce module nécessite les extensions suivante : %1$s."
+msgstr[1] "Ce thème nécessite les extensions suivante : %1$s."
 
 #. translators: 1: plugin name(s).
 #: class-tgm-plugin-activation.php:349
@@ -121,7 +121,7 @@ msgstr[1] "Commencer à activer les extensions"
 msgid "Return to Required Plugins Installer"
 msgstr "Retour à l’installation des extensions requises"
 
-#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920 
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
 #: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
 msgid "Return to the Dashboard"
 msgstr "Retourner au tableau de bord"
@@ -427,8 +427,8 @@ msgstr "Mise à jour de l’extension %1$s (%2$d/%3$d)"
 #, php-format
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
-"Une erreur est survenue lors de l’installation de %1$s: <strong>%2$s</strong>"
-"."
+"Une erreur est survenue lors de l’installation de %1$s: <strong>%2$s</"
+"strong>."
 
 #. translators: 1: plugin name.
 #: class-tgm-plugin-activation.php:3596
