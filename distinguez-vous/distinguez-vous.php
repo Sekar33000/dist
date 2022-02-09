@@ -14,8 +14,6 @@ Version: 0.5
 /* Modifie le logo et le lien de la page de connexion WordPress
 /* ------------------------------------------------------------------------- */
 
-require_once( dirname( __FILE__ ) . 'adminstyle.php' );
-
 // disable default dashboard widgets
 function disable_default_dashboard_widgets() {
 
