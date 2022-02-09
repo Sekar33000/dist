@@ -217,6 +217,18 @@ function distinguezvouscom_register_required_plugins() {
 			'slug'        => 'wordpress-seo',
 			'is_callable' => 'wpseo_init',
 		),
+		
+		array(
+      'name'      => 'Contact Form 7',
+      'slug'      => 'contact-form-7',
+      'required'  => false,
+    ),
+		
+		    array(
+      'name'      => 'Maintenance',
+      'slug'      => 'maintenance',
+      'required'  => false,
+    ),
 
 
 	);
