@@ -79,8 +79,6 @@ a {color: #3ec833;}
 a:active, a:hover{color:green}
 .wp-core-ui .button-primary {background: #03b875; border-color: #7dba75; box-shadow: 0 1px 0 #7dba75; color: #fff; text-decoration: none; text-shadow: none;}
 wp-core-ui .button.button-primary.button-hero {box-shadow: 0 2px 0 #7dba75;}
-#welcome-panel{display:block !important;}
-#welcome-panel .welcome-panel-close{display:none;}
 .update-nag, .updated, .error, .is-dismissible { display: none; }
 #adminmenu .awaiting-mod, #adminmenu .update-plugins {background-color: #7dba75}
 #wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover > a, #wpadminbar .quicklinks .menupop ul li a:focus, #wpadminbar .quicklinks .menupop ul li a:focus strong, #wpadminbar .quicklinks .menupop ul li a:hover, #wpadminbar .quicklinks .menupop ul li a:hover strong, #wpadminbar .quicklinks .menupop.hover ul li a:focus, #wpadminbar .quicklinks .menupop.hover ul li a:hover, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus, #wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover, #wpadminbar li #adminbarsearch.adminbar-focused::before, #wpadminbar li .ab-item:focus .ab-icon::before, #wpadminbar li .ab-item:focus::before, #wpadminbar li a:focus .ab-icon::before, #wpadminbar li.hover .ab-icon::before, #wpadminbar li.hover .ab-item::before, #wpadminbar li:hover #adminbarsearch::before, #wpadminbar li:hover .ab-icon::before, #wpadminbar li:hover .ab-item::before, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus, #wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{color:#7dba75}
