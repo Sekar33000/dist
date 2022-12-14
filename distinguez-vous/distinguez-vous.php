@@ -115,17 +115,6 @@ function admin_dashboard_last_edits_dashboard_widget() {
 
 }
 
-
-// Redirect default URL link to a custom page
-add_action('init','custom_login');
-function custom_login(){
- global $pagenow;
- if( 'wp-login.php' == $pagenow  && $_GET['action']!="logout" && $_GET['action']!= "lostpassword" ) {
-  wp_redirect('agenceadv');
-  exit();
- }
-}
-
 add_filter('xmlrpc_methods', function($methods) {
   unset($methods['pingback.ping']); 
   return $methods; 
