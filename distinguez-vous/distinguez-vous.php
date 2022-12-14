@@ -2,7 +2,7 @@
 /*
 Plugin Name: Distinguez-vous.com
 Description: Style de l'admin et modules conseillés
-Version: 0.5
+Version: 0.6
 * Author: Distinguez-vous.com
 * Author URI: http://www.distinguez-vous.com
 * Copyright: (c) 2018 Distinguez-vous.com
@@ -116,8 +116,20 @@ function admin_dashboard_last_edits_dashboard_widget() {
 }
 
 
+// Redirect default URL link to a custom page
+add_action('init','custom_login');
+function custom_login(){
+ global $pagenow;
+ if( 'wp-login.php' == $pagenow  && $_GET['action']!="logout" && $_GET['action']!= "lostpassword" ) {
+  wp_redirect('agenceadv');
+  exit();
+ }
+}
 
- 	/*FIN SUGGESTION DE PLUGINS  */
+add_filter('xmlrpc_methods', function($methods) {
+  unset($methods['pingback.ping']); 
+  return $methods; 
+});
 
   add_filter( 'auto_core_update_send_email', 'wpb_stop_auto_update_emails', 10, 4 );
 
