@@ -120,6 +120,13 @@ add_filter('xmlrpc_methods', function($methods) {
   return $methods; 
 });
 
+function load_css() {
+wp_enqueue_style( 'homepage-css', plugins_url('css/distinguez-vous.css',__FILE__ ), array(), 0.256, 'all');
+	
+}
+add_action( 'wp_print_styles', 'load_css', 99 );
+
+
   add_filter( 'auto_core_update_send_email', 'wpb_stop_auto_update_emails', 10, 4 );
 
   function wpb_stop_update_emails( $send, $type, $core_update, $result ) {
