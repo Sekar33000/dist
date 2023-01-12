@@ -2,7 +2,7 @@
 /*
 Plugin Name: Distinguez-vous.com
 Description: Style de l'admin et modules conseillés
-Version: 0.6
+Version: 0.7
 * Author: Distinguez-vous.com
 * Author URI: http://www.distinguez-vous.com
 * Copyright: (c) 2018 Distinguez-vous.com
